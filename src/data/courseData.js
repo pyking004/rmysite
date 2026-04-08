@@ -1,0 +1,30 @@
+export const courses = [
+    {
+        cid:1001,
+        title:"React JS",
+        dur:30,
+        fee:7500,
+        trainer:"Ravi"
+    },
+    {
+        cid:1002,
+        title:"JavaScript",
+        dur:15,
+        fee:3500,
+        trainer:"Hari"
+    },
+    {
+        cid:1003,
+        title:"CSS",
+        dur:10,
+        fee:2500,
+        trainer:"Varma"
+    },
+    {
+        cid:1004,
+        title:"NextJS",
+        dur:15,
+        fee:4500,
+        trainer:"Koti"
+    },
+]
