@@ -1,9 +1,16 @@
 import React from 'react'
+import CourseCard from '../../components/student/CourseCard';
+import { courses } from '../../data/courseData';
 
 const Courses = () => {
   return (
     <div>
-        <h3>Courses Component</h3>
+        <h3>List of Courses</h3>
+        {
+          courses.map((course)=>(
+            <CourseCard key={courses.cid} course={course} />
+          ))
+        }
     </div>
   )
 }

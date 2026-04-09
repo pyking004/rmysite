@@ -1,9 +1,12 @@
 import React from 'react'
 
-const CourseCard = () => {
+const CourseCard = ({course}) => {
   return (
     <div>
-        <h3>CourseCard Component</h3>
+        <h3>{course.title}</h3>
+        <p>{course.dur}</p>
+        <p>{course.fee}</p>
+        <h3>{course.trainer}</h3>
     </div>
   )
 }
